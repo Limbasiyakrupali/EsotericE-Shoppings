@@ -28,3 +28,25 @@
 
 https://github.com/Limbasiyakrupali/EsotericE-Shoppings/assets/150001085/c6e9f087-d9a9-4a5a-9f93-0e80df6d5751
 
+
+### Main
+```
+import 'package:flutter/material.dart';
+
+import 'Screen/Cartpage.dart';
+import 'Screen/detailpage.dart';
+import 'Screen/homepage.dart';
+
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    routes: {
+      '/': (context) => const Homepage(),
+      'DetailPage': (context) => const DetailPage(),
+      'CartPage': (context) => const CartPage(),
+    },
+  ));
+}
+
+```
+
